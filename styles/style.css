@@ -20,6 +20,12 @@
     font-weight: 600;
     cursor: pointer;
 }
+.span-one{
+    color: #727272;
+}
+.span-two{
+    color: #FF900E;
+}
 
 /* header styles */
 .header{
@@ -46,6 +52,7 @@
     font-size: 18px;
     font-weight: 500;
 }
+/* banner starts */
 .banner{
     text-align: center;
 }
@@ -66,4 +73,37 @@
 }
 .banner-image img{
     width: 100%;
+}
+
+/* company features starts */
+.company-features{
+    margin-top: 50px;
+    margin-bottom: 130px;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+.company-features > div{
+    /* flex: 1; */
+}
+.features-image{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.features-image img{
+    width: 100%;
+}
+.features-text{
+    width: 50%;
+}
+.features-text .feature-text-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.feature-text-description{
+    color: #727272;
+    margin-bottom: 30px;
 }

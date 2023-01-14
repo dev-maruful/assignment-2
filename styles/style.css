@@ -1,16 +1,18 @@
 /* universal styles */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
-.container{
+
+.container {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
 }
-.btn-primary{
+
+.btn-primary {
     background: #FF900E;
     color: white;
     border-radius: 8px;
@@ -20,40 +22,47 @@
     font-weight: 600;
     cursor: pointer;
 }
-.btn-secondary{
+
+.btn-secondary {
     padding: 35px 30px;
     background: #FF900E;
     color: white;
     border-radius: 8px;
     border: none;
 }
-.span-one{
+
+.span-one {
     color: #727272;
 }
-.span-two{
+
+.span-two {
     color: #FF900E;
 }
-body{
+
+body {
     background: aliceblue;
 }
 
 /* header styles */
-.header{
+.header {
     background: rgba(255, 144, 14, 0.1);
     padding: 50px 0;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* margin-top: 50px; */
     margin-bottom: 100px;
 }
-.nav-container h2{
+
+.nav-container h2 {
     font-size: 45px;
     font-weight: 700;
 }
-.nav ul{
+
+.nav ul {
     display: flex;
     list-style: none;
     align-items: center;
@@ -62,31 +71,36 @@ body{
     font-size: 18px;
     font-weight: 500;
 }
+
 /* banner starts */
-.banner{
+.banner {
     text-align: center;
 }
-.banner-text{
+
+.banner-text {
     width: 100%;
     max-width: 850px;
     margin: 0 auto;
     margin-bottom: 50px;
 }
-.banner-text-title{
+
+.banner-text-title {
     font-size: 64px;
     font-weight: 700;
     margin-bottom: 20px;
 }
-.banner-text-description{
+
+.banner-text-description {
     color: #727272;
     margin-bottom: 30px;
 }
-.banner-image img{
+
+.banner-image img {
     width: 100%;
 }
 
 /* company features starts */
-.company-features{
+.company-features {
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 130px;
@@ -96,122 +110,174 @@ body{
     width: 100%;
     max-width: 950px;
 }
-.company-features > div{
+
+.company-features>div {
     /* flex: 1; */
 }
-.features-image{
+
+.features-image {
     width: 50%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
 }
-.features-image img{
+
+.features-image img {
     width: 100%;
 }
-.features-text{
+
+.features-text {
     width: 50%;
 }
-.features-text .feature-text-title{
+
+.features-text .feature-text-title {
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 25px;
 }
-.feature-text-description{
+
+.feature-text-description {
     color: #727272;
     margin-bottom: 30px;
 }
 
 /* customer features styles */
-.second-section{
+.second-section {
     margin-bottom: 130px;
 }
-.customer-features{
+
+.customer-features {
     display: flex;
     gap: 145px;
 }
-.customer-features-text, .customer-features-image{
+
+.customer-features-text,
+.customer-features-image {
     width: 50%;
 }
-.heading-text .heading-text-title{
+
+.heading-text .heading-text-title {
     font-size: 45px;
     font-weight: 700;
     padding-left: 20px;
     border-left: 5px solid #FF900E;
     margin-bottom: 25px;
 }
-.heading-text .heading-text-description{
+
+.heading-text .heading-text-description {
     margin-bottom: 30px;
 }
-.heading-text .heading-text-description, .under-text-description, .section-text-description{
+
+.heading-text .heading-text-description,
+.under-text-description,
+.section-text-description {
     color: #727272;
 }
-.customer-features .under-text-item{
+
+.customer-features .under-text-item {
     background: white;
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
 }
-.under-text-title{
+
+.under-text-title {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.customer-features-image img{
+
+.customer-features-image img {
     width: 100%;
 }
-.second-btn{
+
+.second-btn {
     position: absolute;
     right: 30%;
     /* bottom: 20%; */
     /* top: 20%; */
 }
-.second-btn h1{
+
+.second-btn h1 {
     font-size: 50px;
     font-weight: 700;
 }
-.second-btn p{
+
+.second-btn p {
     font-size: 20px;
     font-weight: 500;
 }
 
 /* third section styles */
-.section-text{
+.section-text {
     margin-bottom: 100px;
 }
-.section-text .section-text-title{
+
+.section-text .section-text-title {
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 24px;
 }
-.icon-items{
+
+.icon-items {
     display: flex;
     justify-content: space-evenly;
     gap: 50px;
     margin-bottom: 180px;
 }
-.icon-items > .icon-item{
+
+.icon-items>.icon-item {
     flex: 1;
 }
-.icon-item{
+
+.icon-item {
     padding: 35px 45px;
     text-align: center;
     border: 1px solid #FF900E;
     border-radius: 8px;
 }
-.icon-item h1{
+
+.icon-item h1 {
     font-size: 45px;
     font-weight: 600;
     color: #424242;
     margin-bottom: 5px;
 }
-.icon-item p{
+
+.icon-item p {
     font-size: 20px;
     font-weight: 600;
     color: #727272;
 }
 
 /* fourth section styles */
-.fourth-section .section-text{
+.fourth-section {
+    margin-bottom: 130px;
+}
+
+.fourth-section .section-text {
     text-align: center;
     margin-bottom: 50px;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sponsors img {
+    height: 50px;
+}
+
+/* footer starts */
+.footer {
+    padding: 40px 0;
+    text-align: center;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+.end{
+    font-size: 20px;
+    color: #424242;
 }

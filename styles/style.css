@@ -29,6 +29,7 @@
     color: white;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
 .span-one {
@@ -143,7 +144,7 @@ body {
 
 /* customer features styles */
 .second-section {
-    margin-bottom: 130px;
+    /* margin-bottom: 130px; */
 }
 
 .customer-features {
@@ -192,9 +193,10 @@ body {
 }
 
 .second-btn {
-    position: absolute;
-    right: 30%;
-    /* bottom: 20%; */
+    position: relative;
+    /* right: 30%; */
+    left: 450px;
+    bottom: 210px;
     /* top: 20%; */
 }
 
@@ -235,6 +237,10 @@ body {
     text-align: center;
     border: 1px solid #FF900E;
     border-radius: 8px;
+    transition: transform 1s ease;
+}
+.icon-item:hover{
+    transform: scale(1.25);  
 }
 
 .icon-item h1 {

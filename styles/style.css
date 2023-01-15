@@ -144,7 +144,8 @@ body {
 
 /* customer features styles */
 .second-section {
-    /* margin-bottom: 130px; */
+    margin-bottom: 130px;
+    position: relative;
 }
 
 .customer-features {
@@ -193,10 +194,10 @@ body {
 }
 
 .second-btn {
-    position: relative;
-    /* right: 30%; */
+    position: absolute;
     left: 500px;
-    bottom: 150px;
+    /* left: 500px; */
+    bottom: 0px;
     /* top: 20%; */
 }
 

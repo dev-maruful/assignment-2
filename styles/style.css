@@ -205,9 +205,12 @@ body {
 }
 
 /* third section styles */
+.third-section {
+    margin-bottom: 180px;
+}
 
 .third-section .section-text {
-    margin-bottom: 130px;
+    margin-bottom: 100px;
     width: 50%;
 }
 
@@ -282,7 +285,7 @@ body {
 
 /* fourth section styles */
 .fourth-section {
-    margin-bottom: 100px;
+    margin-bottom: 130px;
 }
 
 .fourth-section .section-text {

@@ -8,7 +8,7 @@
 
 .container {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -109,7 +109,7 @@ body {
     gap: 70px;
     align-items: center;
     width: 100%;
-    max-width: 950px;
+    max-width: 1050px;
 }
 
 .company-features>div {
@@ -195,8 +195,8 @@ body {
 .second-btn {
     position: relative;
     /* right: 30%; */
-    left: 450px;
-    bottom: 210px;
+    left: 500px;
+    bottom: 150px;
     /* top: 20%; */
 }
 
@@ -215,7 +215,7 @@ body {
     margin-bottom: 100px;
 }
 
-.section-text .section-text-title {
+.section-text .section-text-title, .section-text-title {
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 24px;
@@ -225,7 +225,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     gap: 50px;
-    margin-bottom: 180px;
+    margin-bottom: 100px;
 }
 
 .icon-items>.icon-item {
@@ -241,6 +241,8 @@ body {
 }
 .icon-item:hover{
     transform: scale(1.25);  
+    background: #FF900E;
+    border: 1px solid #424242;;
 }
 
 .icon-item h1 {
@@ -254,6 +256,25 @@ body {
     font-size: 20px;
     font-weight: 600;
     color: #727272;
+}
+
+/* middle section starts */
+.middle-section{
+    display: flex;
+    margin-bottom: 80px;
+}
+.middle-section > div{
+    flex: 1;
+}
+.middle-section .middle-section-image{
+    width: 50%;
+    
+}
+.middle-section-image img{
+    border-radius: 8px;
+}
+.middle-section .section-text-description{
+    margin-bottom: 30px;
 }
 
 /* fourth section styles */
@@ -270,6 +291,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    filter: grayscale(1);
+}
+.sponsor{
+    
 }
 
 .sponsors img {
@@ -286,4 +311,61 @@ body {
 .end{
     font-size: 20px;
     color: #424242;
+}
+
+/* responsive styles */
+@media only screen and (max-width: 576px) {
+    .header{
+        padding: 20px 15px;
+    }
+    .nav, .nav ul, .company-features, .customer-features, .icon-items, .middle-section, .sponsors{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav{
+        margin-bottom: 50px;
+    }
+    .company-features{
+        margin-bottom: 100px;
+    }
+    .company-features .features-text, .section-text, .middle-section{
+        /* align-self: flex-start; */
+        width: 100%;
+        padding: 0 15px;
+    }
+    .company-features, .features-image{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .customer-features > div{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .second-btn{
+        position: relative;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .third-section .section-text, .sponsors{
+        margin-bottom: 50px;
+    }
+    .icon-items{
+        
+    }
+    .icon-item{
+        align-self: center;
+        width: 50%;
+        padding: 35px 0px;
+    }
+    .middle-section > div{
+        width: 100%;
+    }
+    .middle-section-image{
+        width: 100%;
+    }
+    .middle-section-image img{
+        width: 200%;
+    }
 }
